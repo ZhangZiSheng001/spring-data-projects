@@ -282,7 +282,7 @@ public interface UserDao extends JpaRepositoryImplementation<User, Long> {}
 ```
 
 ## Repository接口的继承体系
-![Repository接口的继承体系图](https://github.com/ZhangZiSheng001/spring-data-jpa-demo/blob/master/img/Repository.png)  
+![Repository接口的继承体系图](https://github.com/ZhangZiSheng001/spring-data-projects/blob/master/spring-data-jpa-demo/img/Repository.png)  
 
 如上图所示，`Respository`的实现类通过继承不同的接口来获取相应的功能：  
 
