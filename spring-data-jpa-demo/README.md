@@ -296,6 +296,8 @@ public interface UserDao extends JpaRepositoryImplementation<User, Long> {}
 
 5. `JpaRepositoryImplementation`：继承了`JpaRepository`和`JpaSpecificationExecutor`。 
 
+其实，建议不要在服务层使用`JpaSpecificationExecutor`和`PagingAndSortingRepository`，实在有这样的需求建议采用@Query注解语句的方案替代。  
+
 ## CrudRepository的API使用
 ```java
 	/**
