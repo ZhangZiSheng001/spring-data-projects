@@ -22,7 +22,6 @@
 
 ## 项目实现的需求
 
-###  Spring Data Redis
 1. 使用`Spring Data Redis`，以`json`格式存取不同类型数据：`string`、`list`、`set`、`sorted set`、`hash`  
 
 2. 测试`Spring Data Redis`的事务管理。  
@@ -37,10 +36,10 @@ IDE：Spring Tool Suites4 for Eclipse：4.12
 
 Redis：3.2.100（windows版）  
 
-Spring Data Redis：2.1.10.RELEASE
+Spring Data Redis：2.1.10.RELEASE  
 
 ## applicationContext.xml的配置
-### 单机版
+
 这里主要注意2个要点：  
 
 1. 序列化器：一般有以下5种。默认是采用`StringRedisSerializer`，这种序列器不支持对象存储，使用过程中需要手动抓换序列化器。所以我统一把value的序列化器都改成`GenericJackson2JsonRedisSerializer`  
@@ -100,7 +99,7 @@ Spring Data Redis：2.1.10.RELEASE
 ```
 
 ## 测试操作String类型数据
-**Spring Data Redis 涉及到返回Boolean的方法，不一定只是返回true或者false，还会返回null，所以不能直接用于if判断** 
+**Spring Data Redis 涉及到返回Boolean的方法，不一定只是返回true或者false，还会返回null，所以不能直接用于if判断**  
 
 ```java
 /**
@@ -350,5 +349,7 @@ public void testTransaction() {
 
 ## 项目路径：   
 [spring-data-redis-demo](https://github.com/ZhangZiSheng001/spring-data-projects/tree/master/spring-data-redis-demo)   
+
+[spring-data-redis-springboot-demo](https://github.com/ZhangZiSheng001/spring-data-projects/tree/master/spring-data-redis-springboot-demo)  
 
 > 学习使我快乐！！

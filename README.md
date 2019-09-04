@@ -34,7 +34,7 @@
 
 ## 项目实现的需求
 ###  Spring Data JPA
-采用`Spring Data JPA`的API(均采用注解方式配置对象映射)，针对三个实体进行增删改查操作：  
+采用`Spring Data JPA`针对以下三个实体进行增删改查操作：  
 
 1. 用户：  
 
@@ -44,6 +44,7 @@
 
 项目路径：  
 [spring-data-jpa-demo](https://github.com/ZhangZiSheng001/spring-data-projects/tree/master/spring-data-jpa-demo)  
+
 [spring-data-jpa-springboot-demo](https://github.com/ZhangZiSheng001/spring-data-projects/tree/master/spring-data-jpa-springboot-demo)  
 
 ###  Spring Data Redis
@@ -54,13 +55,21 @@
 项目路径：   
 [spring-data-redis-demo](https://github.com/ZhangZiSheng001/spring-data-projects/tree/master/spring-data-redis-demo)   
 
+[spring-data-redis-springboot-demo](https://github.com/ZhangZiSheng001/spring-data-projects/tree/master/spring-data-redis-springboot-demo)   
+
 ## 项目工程环境
+
 JDK：1.8.0_201  
+
 maven：3.6.1  
+
 IDE：Spring Tool Suites4 for Eclipse：4.12   
-mysql：5.7  
-Hibernate：5.4.4.Final  
+
 Redis：3.2.100（windows版）  
+
+Spring Data Redis：2.1.10.RELEASE  
+
+Spring Boot：2.1.7.RELEASE  
 
 
 > 学习使我快乐！！
