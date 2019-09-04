@@ -44,6 +44,7 @@
 
 项目路径：  
 [spring-data-jpa-demo](https://github.com/ZhangZiSheng001/spring-data-projects/tree/master/spring-data-jpa-demo)  
+[spring-data-jpa-springboot-demo](https://github.com/ZhangZiSheng001/spring-data-projects/tree/master/spring-data-jpa-springboot-demo)  
 
 ###  Spring Data Redis
 1. 使用`Spring Data Redis`，以`json`格式存取不同类型数据：`string`、`list`、`set`、`sorted set`、`hash`  
